@@ -6,27 +6,27 @@
 
 ## Description
 
-_This application will ask future students a series of questions about themselves and provides a track suggestion based on their answers. There will be a minimum of 5 survey questions. There will be at least 3 different track suggestions. _
+This application will ask future students a series of questions about themselves and provides a track suggestion based on their answers. There will be a minimum of 5 survey questions. There will be at least 3 different track suggestions.
 
 ## Setup/Installation Requirements
 
-* _Open any browser_
-* _Navigate  to application_
-* _Answer the questions_
-* _Receive your custom answer_
+* Open any browser
+* Navigate  to application
+* Answer the questions
+* Receive your custom answer
 
 
 ## Known Bugs
 
-_There are no know bugs. _
+There are no know bugs.
 
 ## Support and contact details
 
-_Please feel free to contact Beth Hansen at beth97209@gmail.com for any questions or suggestions._
+Please feel free to contact Beth Hansen at beth97209@gmail.com for any questions or suggestions.
 
 ## Technologies Used
 
-_Basic HTML, CSS, Javascript, Jquery and bootstrap were used to make this application._
+Basic HTML, CSS, Javascript, Jquery and bootstrap were used to make this application.
 
 ### License
 
