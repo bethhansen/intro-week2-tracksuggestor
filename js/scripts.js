@@ -1,37 +1,49 @@
-$(document).ready(function() {//this will tell the computor that we want it to do some work
-  $("form#track-suggestor").submit(function(event){//when the submit button is pressed we want the computer to perform a acton
-    var question1 = $("option.num1").val();//the answer that is selected from the options is given a value (string)
-    var question2 = $("option.num2").val();//the answer that is selected from the options is given a value (string)
-    var question3 = $("option.num3").val();//the answer that is selected from the options is given a value (string)
-    var question4 = $("option.num4").val();//the answer that is selected from the options is given a value (string)
-    var question5 = $("option.num5").val();//the answer that is selected from the options is given a value (string)
+$(document).ready(function() {
+  $("form#track-suggestor").submit(function(event){
+    var question1 = $("option.#question1").val();
+    var question2 = $("option.#question2").val();
+    var question3 = $("option.#question3").val();
+    var question4 = $("option.#question4").val();
+    var question5 = $("option.#question5").val();
 
-    $(".num1").text(question1);//the string which has a class is told to display to the user in text form
-    $(".num2").text(question2);//the string which has a class is told to display to the user in text form
-    $(".num3").text(question3);//the string which has a class is told to display to the user in text form
-    $(".num4").text(question4);//the string which has a class is told to display to the user in text form
-    $(".num5").text(question5);//the string which has a class is told to display to the user in text form
+    $("#question1").text(question1);
+    $("#question2").text(question2);
+    $("#question3").text(question3);
+    $("#question4").text(question4);
+    $("#question5").text(question5);
 
-    $("#result").show();//the string is now told to show its collected answers in the result area which has a unique ID
-    event.preventDefault();//this tells the function to reset itself
+    $("#result").show();
+    event.preventDefault();
       })
 })
 
 
-$(document).ready(function() {
-  $("form#track-suggestor").submit(function(event) {
-    var question1 = $("option.num1").val();//the answer that is selected from the options is given a value (string)
-    var question2 = $("option.num2").val();//the answer that is selected from the options is given a value (string)
-    var question3 = $("option.num3").val();//the answer that is selected from the options is given a value (string)
-    var question4 = $("option.num4").val();//the answer that is selected from the options is given a value (string)
-    var question5 = $("option.num5").val();//the answer that is selected from the options is given a value (string)
-
-if (question1 === "Large Company" && question2 === "Front-end user interface" && question3 === "Mac OS" && question4 === "5" && question5 === "Masters") {
-  console.log(question1, question2, question3, question4, question5);
-}
-
-  })
-})
+// $(document).ready(function() {
+//   $("form#track-suggestor").submit(function(event) {
+//     var question1 = $("option.num1").val();
+//     var question2 = $("option.num2").val();
+//     var question3 = $("option.num3").val();
+//     var question4 = $("option.num4").val();
+//     var question5 = $("option.num5").val();
+//
+// if (question1 === "#largeCompany" && question2 === "#frontendUser" && question3 === "#mac" && question4 === "#5years" && question5 === "#masters") {
+//   console.log(question1, question2, question3, question4, question5);
+//   $(".druple").show();
+//   $(".html").hide();
+//   $(".css").hide();
+//   $(".c").hide();
+//   $(".java").hide();
+//   $(".javascript").hide();
+//   $(".android").hide();
+//   $(".php").hide();
+//
+//   $("#result").show();//the string is now told to show its collected answers in the result area which has a unique ID
+//   event.preventDefault();//this tells the function to reset itself
+//
+// };
+//
+//   });
+// });
 
 
 

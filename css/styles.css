@@ -1,3 +1,38 @@
 body {
   font-family: 'Roboto Slab', serif;
 }
+img {
+  height: 200px;
+  border: 2px solid black;
+  border-radius: 30px
+}
+.blank {
+  display: none;
+}
+/*.suggestion1 {
+  display: none;
+}
+.html {
+  display: none;
+}
+.css {
+  display: none;
+}
+.c {
+  display: none;
+}
+.java {
+  display: none;
+}
+.javascript {
+  display: none;
+}
+.android {
+  display: none;
+}
+.php {
+  display: none;
+}
+.druple {
+  display: none;
+}*/
