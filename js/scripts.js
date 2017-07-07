@@ -17,8 +17,8 @@
 // });
 
 
-$(document).ready(function() {
-  $("form#track-suggestor").submit(function(event){
+$(document).ready(function() {//this will tell the computor that we want it to do some work
+  $("form#track-suggestor").submit(function(event){//when the submit button is pressed
     var question1 = $("option.num1").val();
     var question2 = $("option.num2").val();
     var question3 = $("option.num3").val();
