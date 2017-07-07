@@ -1,16 +1,16 @@
 $(document).ready(function() {
   $("form#track-suggestor").submit(function(event){
-    var question1 = $("option.#question1").val();
-    var question2 = $("option.#question2").val();
-    var question3 = $("option.#question3").val();
-    var question4 = $("option.#question4").val();
-    var question5 = $("option.#question5").val();
+    var question1 = $("option.num1").val();
+    var question2 = $("option.num2").val();
+    var question3 = $("option.num3").val();
+    var question4 = $("option.num4").val();
+    var question5 = $("option.num5").val();
 
-    $("#question1").text(question1);
-    $("#question2").text(question2);
-    $("#question3").text(question3);
-    $("#question4").text(question4);
-    $("#question5").text(question5);
+    $(".num1").text(question1);
+    $(".num2").text(question2);
+    $(".num3").text(question3);
+    $(".num4").text(question4);
+    $(".num5").text(question5);
 
     $("#result").show();
     event.preventDefault();

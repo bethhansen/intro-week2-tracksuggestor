@@ -1,6 +1,6 @@
 # _Track Suggestor_
 
-#### _This appolication is designed to help the user select a programming language that best suits their likes and dislikes._
+#### _This application is designed to help the user select a programming language that best suits their likes and dislikes._
 
 #### By _**Beth Hansen**_
 
@@ -15,6 +15,8 @@ This application will ask future students a series of questions about themselves
 * Answer the questions
 * Receive your custom answer
 
+#### _This application can be downloaded at  https://bethhansen.github.io/intro-week2-tracksuggestor
+
 
 ## Known Bugs
 
@@ -27,6 +29,8 @@ Please feel free to contact Beth Hansen at beth97209@gmail.com for any questions
 ## Technologies Used
 
 Basic HTML, CSS, Javascript, Jquery and bootstrap were used to make this application.
+
+
 
 ### License
 
