@@ -9,8 +9,14 @@ img {
 }
 /*.blank {
   display: none;
+beth-@DESKTOP-D2RBBUE MINGW64 ~
+$ cd desktop
+
 }*/
 .suggestion2 {
+  display: none;
+}
+.intro {
   display: none;
 }
 .html {
@@ -31,9 +37,18 @@ img {
 .android {
   display: none;
 }
-.php {
+.design {
   display: none;
 }
-.druple {
+.ruby {
+  display: none;
+}
+.rails {
+  display: none;
+}
+.react {
+  display: none;
+}
+.net {
   display: none;
 }
