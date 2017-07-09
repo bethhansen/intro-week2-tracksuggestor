@@ -37,42 +37,149 @@
         <div class="form-group">
           <h4><label for="question3">What type of programing enviorment would you like to build on?</label></h4>
           <select class="form-control" id="question3">
-            <option class="blank" value="No answer chosen">Choose one</option>
-            <option id="mac" class="num3" value="Mac OS">Mac OS</option>
-            <option id="windows" class="num3" value="Windows OS">Windows OS</option>
+            <option class="blank" value="0">Choose one</option>
+            <option id="mac" class="num3" value="1">Mac OS</option>
+            <option id="windows" class="num3" value="2">Windows OS</option>
           </select><!--question3-->
         </div><!--form-group-->
         <div class="form-group">
           <h4><label for="question4">How much experience have you had?</label></h4>
           <select class="form-control" id="question4">
-            <option class="blank" value="No answer chosen">Choose one</option>
-            <option id="5years" class="num4" value="5+ years">5+ years</option>
-            <option id="1-5years" class="num4" value="1-5 years">1-5 years</option>
+            <option class="blank" value="0">Choose one</option>
+            <option id="5years" class="num4" value="1">5+ years</option>
+            <option id="1-5years" class="num4" value="2">1-5 years</option>
           </select><!--question4-->
         </div><!--form-group-->
         <div class="form-group">
           <h4><label for="question5">How much education have you had?</label></h4>
           <select class="form-control" id="question5">
-            <option class="blank" value="No answer chosen">Choose one</option>
-            <option id="masters" class="num5" value="Masters">Masters</option>
-            <option id="bacholors" class="num5" value="Bacholors">Bacholors</option>
+            <option class="blank" value="0">Choose one</option>
+            <option id="masters" class="num5" value="1">Masters</option>
+            <option id="bacholors" class="num5" value="2">Bacholors</option>
           </select><!--question5-->
         </div><!--form-group-->
         <button type="submit" class="button">Get your answer!</button>
     </form><!--form-->
+
     <div class="suggestion2">
-      <div class="id=result2">
-        <h3>Based you your answers, our suggestion would be looking into this language:</h3>
-        <img class="html" src="img/html.png" alt="HTML" />
-        <img class="css" src="img/css.png" alt="CSS" />
-        <img class="c" src="img/c.png" alt="C+" />
-        <img class="java" src="img/java.png" alt="Java" />
-        <img class="javascript" src="img/javascript.png" alt="JavaScript" />
-        <img class="android" src="img/android.png" alt="Android" />
-        <img class="php" src="img/php.png" alt="Php" />
-        <img class="druple" src="img/druple.png" alt="Druple" />
-      </div><!--result-->
-    </div>
+      <h3 class="id=result2">Based you your answers, our suggestion would be looking into this language:</h3>
+      <img class="html" src="img/html.png" alt="HTML" />
+      <!-- <img class="css" src="img/css.png" alt="CSS" />
+      <img class="c" src="img/c.png" alt="C+" />
+      <img class="java" src="img/java.png" alt="Java" />
+      <img class="javascript" src="img/javascript.png" alt="JavaScript" />
+      <img class="android" src="img/android.png" alt="Android" />
+      <img class="php" src="img/php.png" alt="Php" /> -->
+      <img class="druple" src="img/druple.png" alt="Druple" />
+    </div><!--suggestion2-->
+    </div><!--container-->
+  </body>
+</html>
+
+
+
+<!-- <div class="suggestion1">
+  <div id="result">
+    <div><h4>Which type of company would you prefer to work for?</h4><span class="num1"></span></div>
+    <div><h4>Which do you prefer?</h4><span class="num2"></span></div>
+    <div><h4>What type of programing enviorment would you like to build on?</h4><span class="num3"></span></div>
+    <div><h4>How much experience have you had?</h4><span class="num4"></span></div>
+    <div><h4>How much education have you had?</h4><span class="num5"></span></div>
+  </div><!-result-->
+<!-- </div><!- -suggestion1-->
+
+<!-- <option id="bootcamp" class="num5" value="Bootcamp">Bootcamp</option>
+<option id="selfEducation" class="num5" value="Internet self education">Internet self education</option>
+<option id="none" class="num5" value="None">None</option> -->
+
+
+<!-- <option id="startup" class="num1" value="Start Up">Start Up</option>
+<option id="remoteWork" class="num1" value="Remote work">Remote work</option>
+<option id="noPreference" class="num1" value="No preference">No preference</option> -->
+
+<!-- <option id="fullStack"class="num2" value="Full stack">Full stack</option>
+<option id="anything"class="num2" value="Anything available">Anything available</option>
+<option id="dontKnow"class="num2" value="I don't know the difference">I don't know the difference</option> -->
+
+<!-- <option id="openSource" class="num3" value="Open Source">Open Source</option>
+<option id="android" class="num3" value="Android">Android</option>
+<option id="dont" class="num3" value="I don't know">I don't know</option> -->
+
+<!-- <option id="selfTaught" class="num4" value="Self taught and have worked on collaboration projects">Self taught and have worked on collaboration projects</option>
+<option id="internet" class="num4" value="S<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <title>Track Suggestor</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Which Track Is Best For You?</h1>
+        <p>Choosing which language to learn is no easy task. We are here to help narrow down the options.</p>
+      </div><!--jumbotron-->
+      <form id="track-suggestor">
+        <div class="form-group">
+          <h4><label for="question1">Which type of company would you prefer to work for?</label></h4>
+          <select class="form-control" id="question1">
+            <option  class="blank" value="No answer chosen">Choose one</option>
+            <option id="largeCompany" class="num1" value="Large Company">Large Company</option>
+            <option id="smallCompany" class="num1" value="Small Company">Small Company</option>
+          </select><!--question1-->
+        </div><!--form-group-->
+        <div class="form-group">
+          <h4><label for="question2">Which do you prefer?</label></h4>
+          <select class="form-control" id="question2">
+            <option class="blank" value="No answer chosen">Choose one</option>
+            <option id="frontendUser" class="num2" value="Front end-user interface">Front-end user interface</option>
+            <option id="backend" class="num2" value="Back end">Back end</option>
+          </select><!--question2-->
+        </div><!--form-group-->
+        <div class="form-group">
+          <h4><label for="question3">What type of programing enviorment would you like to build on?</label></h4>
+          <select class="form-control" id="question3">
+            <option class="blank" value="0">Choose one</option>
+            <option id="mac" class="num3" value="1">Mac OS</option>
+            <option id="windows" class="num3" value="2">Windows OS</option>
+          </select><!--question3-->
+        </div><!--form-group-->
+        <div class="form-group">
+          <h4><label for="question4">How much experience have you had?</label></h4>
+          <select class="form-control" id="question4">
+            <option class="blank" value="0">Choose one</option>
+            <option id="5years" class="num4" value="1">5+ years</option>
+            <option id="1-5years" class="num4" value="2">1-5 years</option>
+          </select><!--question4-->
+        </div><!--form-group-->
+        <div class="form-group">
+          <h4><label for="question5">How much education have you had?</label></h4>
+          <select class="form-control" id="question5">
+            <option class="blank" value="0">Choose one</option>
+            <option id="masters" class="num5" value="1">Masters</option>
+            <option id="bacholors" class="num5" value="2">Bacholors</option>
+          </select><!--question5-->
+        </div><!--form-group-->
+        <button type="submit" class="button">Get your answer!</button>
+    </form><!--form-->
+
+    <div class="suggestion2">
+      <h3 class="id=result2">Based you your answers, our suggestion would be looking into this language:</h3>
+      <img class="html" src="img/html.png" alt="HTML" />
+      <!-- <img class="css" src="img/css.png" alt="CSS" />
+      <img class="c" src="img/c.png" alt="C+" />
+      <img class="java" src="img/java.png" alt="Java" />
+      <img class="javascript" src="img/javascript.png" alt="JavaScript" />
+      <img class="android" src="img/android.png" alt="Android" />
+      <img class="php" src="img/php.png" alt="Php" /> -->
+      <img class="druple" src="img/druple.png" alt="Druple" />
+    </div><!--suggestion2-->
     </div><!--container-->
   </body>
 </html>
@@ -108,4 +215,6 @@
 
 <!-- <option id="selfTaught" class="num4" value="Self taught and have worked on collaboration projects">Self taught and have worked on collaboration projects</option>
 <option id="internet" class="num4" value="Self taught on the internet">Self taught on the internet</option>
+<option id="newbie" class="num4" vclass="num" lue="Newbie with no experience">Newbie with no experience</option> -->
+elf taught on the internet">Self taught on the internet</option>
 <option id="newbie" class="num4" vclass="num" lue="Newbie with no experience">Newbie with no experience</option> -->
