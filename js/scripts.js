@@ -1,18 +1,34 @@
+var add = function(question1, question2) {
+  return question1 + question2
+};
+
 $(document).ready(function() {
   $("form#track-suggestor").submit(function(event) {
-    var question1 = $("option.num1").val();
-    var question2 = $("option.num2").val();
+    var question1 = parseInt($("option.num1").val());
+    var question2 = parseInt($("option.num2").val());
+    var result = add(question1, question2);
 
-if (question1 === "#largeCompany" && question2 === "#frontendUser") {
+if (result <= 0) {
   console.log(question1, question2);
+  $(".druple").hide();
+  $(".html").hide();
+}
+else if (result ===1 || result <= 3) {
+  $(".suggestion2").show();
+  $(".druple").hide();
+  $(".html").show();
+}
+
+else {
+  $(".suggestion2").show();
   $(".druple").show();
   $(".html").hide();
-
+}
   $("#result").show();//the string is now told to show its collected answers in the result area which has a unique ID
   event.preventDefault();//this tells the function to reset itself
-    };
   });
 });
+
 
 // && question3 === "#mac" && question4 === "#5years" && question5 === "#masters"
 
@@ -65,20 +81,20 @@ if (question1 === "#largeCompany" && question2 === "#frontendUser") {
 
 
 
-var add = function(num1, num2, num3, num4, num5) {
-  return num1 + num2 + num3 + num4 + num5;
-};
-
-
-
-$(document).ready(function() {
-  $("form.track-suggestor").submit(function(event)) {
-    event.preventDefault();
-    var question1 = parseInt($("#question1").val());
-    var question2 = parseInt($("#question2").val());
-    var question3 = parseInt($("#question3").val());
-    var question4 = parseInt($("#question4").val());
-    var question5 = parseInt($("#question5").val());
-    var result = add(num1, num2, num3, num4, num5);
-    $("#output").text(result);
-});
+// var add = function(num1, num2, num3, num4, num5) {
+//   return num1 + num2 + num3 + num4 + num5;
+// };
+//
+//
+//
+// $(document).ready(function() {
+//   $("form.track-suggestor").submit(function(event)) {
+//     event.preventDefault();
+//     var question1 = parseInt($("#question1").val());
+//     var question2 = parseInt($("#question2").val());
+//     var question3 = parseInt($("#question3").val());
+//     var question4 = parseInt($("#question4").val());
+//     var question5 = parseInt($("#question5").val());
+//     var result = add(num1, num2, num3, num4, num5);
+//     $("#output").text(result);
+// });
