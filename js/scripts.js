@@ -57,6 +57,5 @@ event.preventDefault();
     $(".react").hide();
     $(".net").hide();
   }
-  alert ("howdy");
   });
 });

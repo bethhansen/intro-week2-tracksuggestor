@@ -7,6 +7,13 @@ body {
   background-image: url("../img/bkgd1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  color: white;
+}
+.container {
+  width: 75%;
+}
+.jumbotron {
+  background-color: inherit;
 }
 img {
   height: 200px;
@@ -15,4 +22,7 @@ img {
 }
 .suggestion2 {
   display: none;
+}
+button {
+  background-color: black;
 }
