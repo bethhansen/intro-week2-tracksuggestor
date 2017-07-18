@@ -12,8 +12,8 @@
     <title>Track Suggestor</title>
   </head>
   <body>
-    <div class="container">
-      <div class="jumbotron">
+    <div id="container">
+      <div id="jumbotron">
         <h1>Which Track Is Best For You?</h1>
         <p>Choosing which language to learn is no easy task. We are here to help narrow down the options.</p>
       </div><!--jumbotron-->
@@ -58,18 +58,17 @@
             <option value="b">Internet self education</option>
           </select><!--question5-->
         </div><!--form-group-->
-        <div class="form-group">
+        <div class="form-group result">
           <h4><label for="">Name:</label></h4>
-          <input type="text" name="" value="">
-        </div><!--form-group-->
-        <div class="form-group">
+          <input type="text" id="name" value="">
           <h4><label for="email">Email:</label></h4>
-          <input type="text" name="" value="">
+          <input type="text" id="email" value="">
         </div><!--form-group-->
         <button type="submit" class="button">Get your answer!</button>
-    </form><!--form-->
+      </form><!--form-->
       <div class="suggestion2">
-        <h3 class="id=result2">Based you your answers, our suggestion would be looking into this upcoming Epicodus track:</h3>
+        <p><span ""></span></p>
+        <h3<span id="name"></span>based you your answers, our suggestion would be looking into this upcoming Epicodus track:</h3>
         <img class="intro" src="img/intro.png" alt="Intro">
         <img class="html" src="img/html.png" alt="HTML" />
         <img class="css" src="img/css.png" alt="CSS" />
