@@ -1,6 +1,12 @@
-bbody {
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
   font-family: 'Roboto Slab', serif;
-  background-color: #B0BEC5;
+  background-image: url("../img/bkgd1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 img {
   height: 200px;
